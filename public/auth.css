@@ -1,0 +1,106 @@
+body{
+    text-align: center;
+}
+
+.addNewUsr{
+background-color: #2c67e1;
+    width: 30px;
+    height: 30px;
+    font-size: 28px;
+    line-height: 26px;
+    color: white;
+    display: grid;
+    text-align: center;
+    font-weight: bolder;
+    margin-bottom: 5px;
+    border-radius: 8px;
+transition-duration: 0.6s;
+    margin-left: auto;
+}
+
+.addNewUsr:hover{
+    color: #2c67e1;
+    background-color: white;
+    text-decoration: none;
+    transform: scale(0.85);
+}
+
+.del{
+background-color: indianred;
+    width: 100px;
+}
+
+.Edit{
+    background-color: #356ccb;
+    width: 50px;
+}
+
+.id{
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+}
+.bd{
+    width: 100%;
+    height: 800px;
+display: grid;
+}
+.sue{
+    margin: auto auto;
+    background-color: #2c5fc0;
+    color: white;
+    width: 250px;
+    height: 60px;
+    display: grid;
+    font-size: 25px;
+}
+
+.logoBlock{
+    margin: auto auto;
+    width: 300px;
+    height: 70px;
+    background-image: url("void1.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+
+}
+
+.stroke{
+
+    width: 250px;
+    height: 25px;
+    margin: auto auto;
+    margin-bottom: 10px;
+
+
+    border: none;
+
+display: flex;
+}
+
+img{
+    height: auto;
+}
+
+input{
+    background-color: rgba(255, 255, 255, 0);
+    font-size: 20px;
+    color: #414141;
+    height: 100%;
+    border-radius: 8px;
+    border: 1px solid rgb(118, 148, 255);;
+    background-color: #cbd5e0;
+    margin-left: 5px;
+    width: calc(100% - 30px);
+    display: grid;
+    text-indent: 5px;
+}
+
+button{
+    font-size: 20px;
+    background-color: #2c5fc0;
+    color: white;
+    border-radius: 8px;
+    width: 110px;
+    height: 40px;
+}
