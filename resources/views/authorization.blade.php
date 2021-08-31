@@ -21,7 +21,6 @@
     </div>
     <button type="submit">Log In</button>
 </form>
-
 @yield('warning')
 </body>
 </html>

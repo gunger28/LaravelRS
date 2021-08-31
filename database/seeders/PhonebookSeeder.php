@@ -5,6 +5,7 @@ namespace Database\Seeders;
 use Illuminate\Database\Seeder;
 use App\Models\Phonebook;
 
+//Тестил фабрики и сидеры (Skip---->)
 class PhonebookSeeder extends Seeder
 {
     /**

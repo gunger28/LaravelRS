@@ -5,6 +5,7 @@ namespace Database\Factories;
 use App\Models\Phonebook;
 use Illuminate\Database\Eloquent\Factories\Factory;
 
+//Тестил фабрики и сидеры (Skip---->)
 class PhonebookFactory extends Factory
 {
     /**
@@ -30,3 +31,10 @@ class PhonebookFactory extends Factory
         ];
     }
 }
+
+//
+//'email' => $this->faker->email,
+//            'password' => $this->faker->name(),
+//            'status' => 'admin'
+
+//Us::factory()->count(20)->create();

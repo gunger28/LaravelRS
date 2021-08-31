@@ -13,17 +13,11 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-//Route::get('/', function () {
-//    return view('welcome');
-//});
-
-
 Route::get('/', 'App\Http\Controllers\MainController@logIn')->name('logIn');
 
 Route::get('/home', 'App\Http\Controllers\MainController@index')->name('home');
 
 Route::get('/workSpace', 'App\Http\Controllers\MainController@workSpace')->name('workSpace');
-
 
 Route::get('/search', 'App\Http\Controllers\MainController@search')->name('search');
 
@@ -36,8 +30,6 @@ Route::get('/deleteNote', 'App\Http\Controllers\MainController@deleteNote')->nam
 Route::get('/editNoteView', 'App\Http\Controllers\MainController@editNoteView')->name('editNoteView');
 
 Route::get('/editNote', 'App\Http\Controllers\MainController@editNote')->name('editNote');
-
-Route::get('/btn', 'App\Http\Controllers\MainController@btn')->name('btn');
 
 Route::get('/about', function (){
     return 'about';

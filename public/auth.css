@@ -28,11 +28,15 @@ transition-duration: 0.6s;
 .del{
 background-color: indianred;
     width: 100px;
+    border-radius: 8px;
+    border: none;
 }
 
 .Edit{
     background-color: #356ccb;
     width: 50px;
+    border-radius: 8px;
+    border: none;
 }
 
 .id{
